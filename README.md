@@ -71,6 +71,19 @@ Fully quit and reopen Claude Desktop, then try:
 
 ---
 
+## Use Cases & Examples
+
+Not sure what to do with it? Check out the **[Use Cases & Prompt Examples](examples/USE_CASES.md)** — a full guide with ready-to-use prompts for:
+
+- **Personal productivity** — morning briefings, expense tracking, reading lists
+- **Developer workflows** — changelogs, incident reports, code review summaries
+- **Team collaboration** — meeting notes, standups, weekly digests
+- **Multi-MCP pipelines** — Gmail + Calendar + Discord morning dashboards
+- **Monitoring & alerts** — server health, security scans, budget burn rate
+- **Fun & engagement** — trivia, coding challenges, tech history
+
+---
+
 ## Available Tools
 
 | Tool | Description |
@@ -163,13 +176,15 @@ Add this to your Claude config file:
 
 ```
 discord-notify-mcp/
-├── server.py          # MCP server — handles all Discord API communication
-├── setup.py           # Interactive setup wizard
-├── requirements.txt   # Python dependencies
-├── .env.example       # Template for credentials
-├── .gitignore         # Keeps secrets and venv out of git
-├── LICENSE            # MIT License
-└── README.md          # You are here
+├── server.py              # MCP server — handles all Discord API communication
+├── setup.py               # Interactive setup wizard
+├── requirements.txt       # Python dependencies
+├── .env.example           # Template for credentials
+├── .gitignore             # Keeps secrets and venv out of git
+├── LICENSE                # MIT License
+├── README.md              # You are here
+└── examples/
+    └── USE_CASES.md       # Prompt examples and use case ideas
 ```
 
 ---
